@@ -162,7 +162,7 @@ Another button on the **Developer** tab in Word and Excel is the **Record Macro*
     
 2. Choose **OK** to begin recording the macro. Note how the button text changes to **Stop Recording**. Choose that button the instant you complete the actions that you want to record.
     
-3. Choose cell B1 and type the programmer's classic first string: Hello World. Stop typing and look at the **Stop Recording** button; it is grayed out because Excel is waiting for you to finish typing the value in the cell.
+3. Choose cell B1 and type the programmer's classic first string: Hello World. (We call text a "string" because it's a string of characters.) Stop typing and look at the **Stop Recording** button; it is grayed out because Excel is waiting for you to finish typing the value in the cell.
     
 4. Choose cell B2 to complete the action in cell B1, and then choose **Stop Recording**.
     
@@ -313,7 +313,7 @@ This section briefly discusses a few more key topics.
 
 In the simple examples in this article you manipulated objects that the application had already created. You might want to create your own objects to store values or references to other objects for temporary use in your application. These are called variables.
 
-To use a variable in VBA, must tell VBA which type of object the variable represents by using the **Dim** statement. You then set its value and use it to set other variables or properties.
+To use a variable in VBA, you must tell VBA which type of object the variable represents by using the **Dim** statement. You then set its value and use it to set other variables or properties.
 
 ```vb
     Dim MyStringVariable As String
